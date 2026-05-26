@@ -1,0 +1,70 @@
+/* Estilos personalizados para el modo oscuro */
+body {
+    background-color: #12161a;
+    color: #ffffff;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.form-control, .form-select {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    color: #ffffff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #21262d;
+    border-color: #58a6ff;
+    color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.15);
+}
+
+.form-control::placeholder {
+    color: #6e7681;
+}
+
+/* Ajuste para la imagen de fondo izquierda */
+.img-sidebar {
+    /* Esta URL carga una imagen de comunidad/código de prueba, puedes cambiarla luego */
+    background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+/* ==========================================================================
+   ESTILOS PARA LA VENTANA DE COMPLETAR PERFIL (GOOGLE AUTH)
+   ========================================================================== */
+
+.cp-body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cp-card {
+    background-color: #1e1e1e;
+    border: 1px solid #2d2d2d;
+    border-radius: 12px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.cp-input-disabled {
+    background-color: #2b2b2b !important;
+    color: #aaaaaa !important;
+    border: 1px solid #3d3d3d;
+}
+
+.cp-select-dark {
+    background-color: #252525;
+    color: white;
+    border: 1px solid #3d3d3d;
+}
+
+.cp-select-dark:focus {
+    background-color: #252525;
+    color: white;
+    border-color: #0d6efd;
+    box-shadow: none;
+}

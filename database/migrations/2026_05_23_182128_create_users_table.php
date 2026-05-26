@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique(); #
-            $table->timestamp('email_verified_at')->nullable();#
-            $table->string('password')->nullable(); #
+            $table->string('email')->unique();#Impide duplicados
+            $table->timestamp('email_verified_at')->nullable();#Vacio hasta que el usuario confirme su correo
+            $table->string('password')->nullable(); #Permite registros sin contraseña local
             $table->rememberToken();
-            $table->foreignId('career_id')->nullable()->constrained('careers');
+            $table->foreignId('career_id')->nullable()->constrained('careers');#Opcional al momento de registro
             $table->boolean('terms_accepted')->default(false);
             $table->timestamps();
         });

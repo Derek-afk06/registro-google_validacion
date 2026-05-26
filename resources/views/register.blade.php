@@ -17,15 +17,15 @@
             
             <div class="col-md-5 col-lg-6 d-none d-md-flex flex-column justify-content-end p-5 img-sidebar text-white">
                 <div class="mb-4">
-                    <h2 class="fw-bold fs-1">La siguiente revolución digital.</h2>
-                    <p class="text-secondary fs-5">La nueva etapa de la revolución digital se aproxima.</p>
+                    <h2 class="fw-bold fs-1">La siguiente revolución académica.</h2>
+                    <p class="text-secondary fs-5">Empieza tu formación hoy</p>
                 </div>
             </div>
 
             <div class="col-12 col-md-7 col-lg-6 d-flex align-items-center justify-content-center p-4 p-sm-5">
                 <div class="w-100" style="max-width: 480px;">
                     
-                    <h2 class="fw-bold mb-2 fs-1">Crea tu cuenta gratis</h2>
+                    <h2 class="fw-bold mb-2 fs-1">Regístrate usando</h2>
                     
                     <div class="row g-2 my-4">
                         <div class="col-6">
